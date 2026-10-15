@@ -1,0 +1,112 @@
+/*
+┏━━━━━━━━━━━━━━━┓
+┃  𝐍𝐀𝐓𝐒𝐔'𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
+┣━━━━━━━━━━━━━━━┛
+┃whatsapp : +242065141056
+┃owner : DENTSU MINI BOT
+┃Dev : NatsuTech's Dev 🇨🇬
+┗━━━━━━━━━━━━━━━┛
+*/
+
+════════════════════════════════════════════════════════════════
+                CONDITIONS D'UTILISATION  —  FR
+════════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────────
+1. À PROPOS
+────────────────────────────────────────────────────────────────
+DENTSU MINI BOT est un bot d'assistance WhatsApp × Telegram développé
+par NatsuTech's Dev. En connectant ton numéro au bot (via le code de
+pairing), tu acceptes automatiquement les conditions ci-dessous.
+
+────────────────────────────────────────────────────────────────
+2. USAGE ACCEPTABLE — CONDITIONS DE SERVICE
+────────────────────────────────────────────────────────────────
+Tu NE DOIS PAS utiliser ce bot, ni aucun compte WhatsApp connecté
+à ce bot, pour :
+
+  • Envoyer du contenu pornographique, sexuel ou pour adultes à
+    des mineurs (toute personne de moins de 18 ans). Envoyer ce
+    type de contenu à un enfant est illégal dans tous les pays
+    et sera signalé aux autorités compétentes.
+  • Arnaquer, frauder, faire du phishing ou tromper d'autres
+    utilisateurs.
+  • Pratiquer le « marabout » ou toute escroquerie spirituelle.
+  • Harceler, menacer, faire chanter ou stalker une personne.
+  • Spammer, flooder, ou envoyer des malwares / payloads de crash.
+  • Partager du contenu illégal, haineux, violent ou volé.
+  • Te faire passer pour une autre personne ou pour le Dev.
+
+Tout compte qui enfreint ces règles sera immédiatement bloqué par
+le bot et signalé. Tolérance zéro pour les violations liées à la
+sécurité des enfants.
+
+────────────────────────────────────────────────────────────────
+3. CONDITIONS WHATSAPP (tu les acceptes également)
+────────────────────────────────────────────────────────────────
+  • Conditions WhatsApp : https://www.whatsapp.com/legal/terms-of-service
+  • Confidentialité     : https://www.whatsapp.com/legal/privacy-policy
+  • Centre d'aide       : https://faq.whatsapp.com/
+  • Signaler / Sécurité : https://faq.whatsapp.com/general/security-and-privacy/staying-safe-on-whatsapp
+
+────────────────────────────────────────────────────────────────
+4. SÉCURITÉ DES ENFANTS — OBTENIR DE L'AIDE / SIGNALER
+────────────────────────────────────────────────────────────────
+Si tu reçois du contenu abusif ou si tu es témoin qu'un enfant est
+ciblé :
+  • Signale dans WhatsApp : ouvre la conversation → ⋮ → Signaler.
+  • Sécurité enfants WhatsApp : https://faq.whatsapp.com/
+  • Contacte immédiatement le Dev (voir ci-dessous).
+
+────────────────────────────────────────────────────────────────
+5. CONTACT DEV — NATSUTECH'S DEV
+────────────────────────────────────────────────────────────────
+  • Dev        : NatsuTech's Dev 🇨🇬
+  • WhatsApp 1 : +242065141056
+  • WhatsApp 2 : +242050471017
+  • Telegram   : t.me/DPLOIEMENT_DUN_BOT2
+  • GitHub     : github.com/Alva-sDev242/dentsu-md-v7
+
+────────────────────────────────────────────────────────────────
+6. VIE PRIVÉE
+────────────────────────────────────────────────────────────────
+Le bot stocke uniquement les identifiants de session nécessaires
+pour garder ton WhatsApp connecté. Il NE vend PAS tes données.
+Tu peux te déconnecter à tout moment avec /delpair sur Telegram,
+ou en supprimant l'appareil lié depuis WhatsApp → Appareils liés.
+
+────────────────────────────────────────────────────────────────
+En utilisant DENTSU MINI BOT, tu confirmes avoir lu et accepté ces
+Conditions. Toute violation entraîne un bannissement immédiat et
+définitif.
+                  © NatsuTech's Dev — DENTSU MINI BOT
+────────────────────────────────────────────────────────────────
+
+
+════════════════════════════════════════════════════════════════
+                  TERMS & CONDITIONS  —  EN
+════════════════════════════════════════════════════════════════
+
+1. ABOUT
+DENTSU MINI BOT is a WhatsApp × Telegram assistant bot developed by
+NatsuTech's Dev. By connecting your number to the bot (via the pairing
+code), you agree to the terms below.
+
+2. ACCEPTABLE USE
+You MUST NOT use this bot to send pornographic/sexual content to
+minors, scam, defraud, harass, threaten, blackmail, stalk, spam,
+flood, send malware, share illegal content, or impersonate others.
+Any account that breaks these rules is blocked immediately. Zero
+tolerance for child-safety violations.
+
+3. WHATSAPP POLICIES
+You also agree to the WhatsApp Terms, Privacy Policy and Help
+Center linked above.
+
+4. DEV CONTACT
+Dev: NatsuTech's Dev 🇨🇬 — t.me/DPLOIEMENT_DUN_BOT2
+
+By using DENTSU MINI BOT you confirm you have read and accepted
+these Terms. Violations lead to an immediate, permanent ban.
+
+                  © NatsuTech's Dev — DENTSU MINI BOT

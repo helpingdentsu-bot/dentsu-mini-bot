@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f9ff">
+  <meta name="description" content="Connect WhatsApp to dents-mini-bot using a secure pairing code or QR code.">
+  <title>dents-mini-bot — WhatsApp connection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css?v=20261005">
+  <script src="/app.js?v=20261005" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#home" aria-label="dents-mini-bot home">
+      <span class="brand-orbit"><img src="/assets/dentsu-mini-bot-avatar.png" alt="" class="brand-img"></span>
+      <span class="brand-copy"><strong>dents-mini-bot</strong><small>by NatsuTech's Dev 🇨🇬</small></span>
+    </a>
+    <div class="top-actions">
+      <div class="language" role="group" aria-label="Language">
+        <button class="lang-btn" data-language="en" aria-pressed="false">EN</button><button class="lang-btn" data-language="fr" aria-pressed="true">FR</button>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="side-menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="menu-shade" id="menu-shade"></div>
+  <aside class="side-menu" id="side-menu" aria-hidden="true">
+    <div class="drawer-top"><span class="drawer-title" data-i18n="menu">Menu</span><button class="drawer-close" id="menu-close" aria-label="Close menu">×</button></div>
+    <button class="drawer-link" data-goto="home"><span>⌂</span><span data-i18n="home">Home</span><b>↗</b></button>
+    <button class="drawer-link" data-goto="connect"><span>◉</span><span data-i18n="connect">Connect WhatsApp</span><b>↗</b></button>
+    <button class="drawer-link" data-goto="guide"><span>↗</span><span data-i18n="how">How it works</span><b>↗</b></button>
+    <button class="drawer-link" data-goto="download"><span>↓</span><span data-i18n="download">Download bot</span><b>↗</b></button>
+    <button class="drawer-link" data-goto="support"><span>♡</span><span data-i18n="support">Support & community</span><b>↗</b></button>
+    <div class="drawer-rule"></div>
+    <a class="drawer-social" href="https://whatsapp.com/channel/0029VbC1s7fFnSz1YhZYc01h" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp"><span>WhatsApp Channel</span><b>↗</b></a>
+    <a class="drawer-social" href="https://t.me/DPLOIEMENT_DUN_BOT2" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/telegram/229ED9" alt="Telegram"><span>Telegram Channel</span><b>↗</b></a>
+    <a class="drawer-social" href="https://chat.whatsapp.com/FwJDxAdCgeCGWqJiTv68eF" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp"><span data-i18n="waGroup">Official WhatsApp group</span><b>↗</b></a>
+    <a class="drawer-contact" href="https://wa.me/242050471017" target="_blank" rel="noreferrer" data-i18n="contact">CONTACT DEV</a>
+    <p class="drawer-signature">NatsuTech's Dev 🇨🇬</p>
+  </aside>
+
+  <main class="wrap main-wrap">
+    <section class="view active" data-view="home">
+      <div class="home-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">WhatsApp pairing, made simple</span></div>
+          <h1 data-i18n-html="heroTitle">Your bot.<br><em>One secure connection.</em></h1>
+          <p class="hero-lead" data-i18n="heroLead">Connect your WhatsApp in seconds. Choose the method that feels right: a one-time pairing code or a QR scan.</p>
+          <div class="hero-actions"><button class="button button-primary" data-goto="connect"><span data-i18n="getStarted">Get started</span><b>↗</b></button><button class="button button-quiet" data-goto="guide"><span data-i18n="howWorks">See how it works</span><b>→</b></button></div>
+          <div class="trust-row"><span><i>✓</i><span data-i18n="trustOne">No WhatsApp password</span></span><span><i>✓</i><span data-i18n="trustTwo">Your session stays yours</span></span></div>
+        </div>
+        <div class="hero-visual" aria-label="dents-mini-bot connection">
+          <div class="visual-glow"></div><div class="visual-card">
+            <div class="visual-top"><span class="tiny-label" data-i18n="secureConnection">SECURE CONNECTION</span><span class="online-chip"><i></i><span data-i18n="ready">READY</span></span></div>
+            <div class="hero-logo"><div class="logo-ring"></div><img src="/assets/dentsu-mini-bot-avatar.png" alt="dents-mini-bot"></div>
+            <div class="visual-name">dents-mini-bot</div><div class="visual-caption" data-i18n="connectInSeconds">Connect in a few simple steps</div>
+            <div class="connection-line"><span class="mini-whatsapp"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp"></span><span class="line-dashes"></span><span class="mini-bot">D</span></div>
+            <div class="visual-foot"><span class="shield">✓</span><span data-i18n="privateByDesign">Private by design · No password shared</span></div>
+          </div>
+          <div class="float-badge badge-code"><span>⌘</span><b>PAIR CODE</b><i>•••• ••••</i></div><div class="float-badge badge-qr"><span>▦</span><b>QR SCAN</b><i>Ready to link</i></div>
+        </div>
+      </div>
+      <div class="home-shortcuts"><button class="shortcut" data-goto="connect"><span class="shortcut-icon icon-blue">⌘</span><span><b data-i18n="connectWhatsApp">Connect WhatsApp</b><small data-i18n="chooseMethod">Choose code or QR</small></span><strong>→</strong></button><button class="shortcut" data-goto="download"><span class="shortcut-icon icon-purple">↓</span><span><b data-i18n="downloadBot">Download the bot</b><small data-i18n="fullProjectZip">Get the project ZIP</small></span><strong>→</strong></button><button class="shortcut" data-goto="guide"><span class="shortcut-icon icon-sky">✦</span><span><b data-i18n="deployRailway">Deploy on Railway</b><small data-i18n="railwayQuick">Setup guide, step by step</small></span><strong>→</strong></button></div>
+      <div class="home-bottom"><span><i class="tiny-check">✓</i><span data-i18n="builtFor">Built for a smoother WhatsApp setup</span></span><a href="https://github.com/Alva-sDev242/dentsu-mini-bot" target="_blank" rel="noreferrer"><span data-i18n="visitGitHub">Visit GitHub & follow</span> ↗</a></div>
+    </section>
+
+    <section class="view" data-view="connect">
+      <div class="page-heading"><button class="back-link" data-goto="home">← <span data-i18n="backHome">Home</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="stepOne">STEP 01 · CHOOSE A METHOD</span></div><h1 data-i18n="chooseTitle">How would you like to connect?</h1><p data-i18n="chooseLead">Both methods link your WhatsApp to the bot. Pick one to continue.</p></div>
+      <div class="method-grid">
+        <article class="method-card"><div class="method-icon code-icon">⌘</div><span class="method-tag" data-i18n="fastChoice">FAST & SIMPLE</span><h2 data-i18n="pairTitle">Pair with a code</h2><p data-i18n="pairDesc">Enter your number and type the 8-character code into WhatsApp Linked Devices.</p><button class="button button-primary full" data-goto="code"><span data-i18n="usePairCode">Use pairing code</span><b>→</b></button></article>
+        <article class="method-card"><div class="method-icon qr-icon">▦</div><span class="method-tag" data-i18n="scanChoice">SCAN & CONNECT</span><h2 data-i18n="qrTitle">Scan a QR code</h2><p data-i18n="qrDesc">Open WhatsApp on your phone, scan the live QR code, and your session will connect.</p><button class="button button-outline full" data-goto="qr"><span data-i18n="useQr">Use QR code</span><b>→</b></button></article>
+      </div>
+      <div class="privacy-note"><span class="privacy-icon">⌑</span><span><b data-i18n="privacyTitle">Your account stays in your control.</b><small data-i18n="privacyText">Never share the pairing code or QR image with anyone else.</small></span></div>
+    </section>
+
+    <section class="view" data-view="code">
+      <div class="page-heading"><button class="back-link" data-goto="connect">← <span data-i18n="backMethods">Connection methods</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="pairMethodLabel">PAIRING CODE</span></div><h1 data-i18n="pairPageTitle">Connect with a one-time code.</h1><p data-i18n="pairPageLead">Enter the WhatsApp number you want to link. Use the full international format.</p></div>
+      <div class="flow-grid"><section class="form-card"><form id="pair-form"><label for="phone" data-i18n="phoneLabel">WhatsApp phone number</label><div class="phone-field"><span>＋</span><input id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="242 06 123 45 67" maxlength="20" required></div><small class="field-help" data-i18n="phoneHint">Country code included · no spaces needed</small><button class="button button-primary full" id="pair-submit" type="submit"><span data-i18n="generateCode">Generate pairing code</span><b>→</b></button><p class="form-status" id="pair-status" role="status" aria-live="polite"></p></form><div class="pair-result" id="pair-result" hidden><span class="result-label" data-i18n="yourCode">YOUR PAIRING CODE</span><strong class="pair-code" id="pair-code">--------</strong><button class="copy-button" id="copy-code" type="button" data-i18n="copyCode">Copy code</button><p class="code-note" data-i18n="codeNote">On WhatsApp, open Linked devices → Link a device → Link with phone number.</p></div></section>
+      <aside class="side-note"><div class="note-icon">✦</div><h3 data-i18n="beforeTitle">Before you start</h3><ol><li data-i18n="codeStep1">Open WhatsApp on your phone.</li><li data-i18n="codeStep2">Go to Linked devices.</li><li data-i18n="codeStep3">Tap Link a device, then choose phone number.</li><li data-i18n="codeStep4">Enter the code shown on this page.</li></ol><div class="safe-note"><span>✓</span><span data-i18n="oneTimeNotice">The code is temporary. Do not send it to anyone.</span></div></aside></div>
+    </section>
+
+    <section class="view" data-view="qr">
+      <div class="page-heading"><button class="back-link" data-goto="connect">← <span data-i18n="backMethods">Connection methods</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="qrMethodLabel">QR SCAN</span></div><h1 data-i18n="qrPageTitle">Scan to connect.</h1><p data-i18n="qrPageLead">Create a private QR code, then scan it from WhatsApp on your phone.</p></div>
+      <div class="qr-layout"><div class="qr-card"><div class="qr-frame" id="qr-frame"><div class="qr-placeholder" id="qr-placeholder"><span>▦</span><b data-i18n="qrPlaceholder">Your QR code will appear here</b><small data-i18n="qrPlaceholderHint">It is generated securely for this session</small></div><img id="qr-image" alt="WhatsApp connection QR code" hidden></div><p class="qr-state" id="qr-state" role="status" aria-live="polite" data-i18n="qrNotStarted">Ready when you are.</p><button class="button button-primary full" id="start-qr" type="button"><span data-i18n="generateQr">Generate secure QR code</span><b>→</b></button></div><div class="qr-instructions"><h3 data-i18n="scanWithPhone">Scan with your phone</h3><ol><li data-i18n="qrStep1">Open WhatsApp and tap the menu.</li><li data-i18n="qrStep2">Select Linked devices.</li><li data-i18n="qrStep3">Tap Link a device and scan this QR.</li></ol><div class="safe-note"><span>✓</span><span data-i18n="qrPrivate">This QR is private. Only scan it yourself.</span></div></div></div>
+    </section>
+
+    <section class="view" data-view="download">
+      <div class="page-heading"><button class="back-link" data-goto="home">← <span data-i18n="backHome">Home</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="projectFiles">PROJECT FILES</span></div><h1 data-i18n="downloadTitle">Take the bot with you.</h1><p data-i18n="downloadLead">Download the current project source as a ZIP, or open the repository to browse the files.</p></div>
+      <div class="download-card"><div class="download-mark">↓</div><div class="download-copy"><h2>dents-mini-bot</h2><p data-i18n="zipDescription">Complete project archive · ZIP · from the main branch</p></div><a class="button button-primary" href="https://github.com/Alva-sDev242/dentsu-mini-bot/archive/refs/heads/main.zip"><span data-i18n="downloadZip">Download project ZIP</span><b>↓</b></a></div>
+      <div class="download-links"><a href="https://github.com/Alva-sDev242/dentsu-mini-bot" target="_blank" rel="noreferrer"><span class="link-icon">⌘</span><span><b data-i18n="browseRepo">Browse the repository</b><small>github.com/Alva-sDev242/dentsu-mini-bot</small></span><strong>↗</strong></a><a href="https://github.com/Alva-sDev242/dentsu-mini-bot" target="_blank" rel="noreferrer"><span class="link-icon">☆</span><span><b data-i18n="followDev">Visit GitHub & follow</b><small>github.com/Alva-sDev242/dentsu-mini-bot</small></span><strong>↗</strong></a></div>
+    </section>
+
+    <section class="view" data-view="guide">
+      <div class="page-heading"><button class="back-link" data-goto="home">← <span data-i18n="backHome">Home</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="deployment">DEPLOYMENT</span></div><h1 data-i18n="railwayTitle">Deploy on Railway.</h1><p data-i18n="railwayLead">The repository includes a Railway configuration. Link GitHub, add the required secret, then deploy.</p></div>
+      <div class="guide-grid"><div class="guide-card"><div class="guide-top"><span class="railway-logo">R</span><span class="guide-ready" data-i18n="readyToDeploy">READY TO DEPLOY</span></div><h2 data-i18n="launchProject">Launch your project</h2><p data-i18n="railwayCardText">Create a Railway project from the GitHub repository and set the Telegram bot token in service variables.</p><a class="button button-primary full" href="https://railway.com/new" target="_blank" rel="noreferrer"><span data-i18n="openRailway">Open Railway deploy</span><b>↗</b></a><a class="repo-inline" href="https://github.com/Alva-sDev242/dentsu-mini-bot" target="_blank" rel="noreferrer" data-i18n="openRepoFirst">Open the GitHub repository ↗</a></div><div class="guide-steps"><h3 data-i18n="quickSteps">Quick setup</h3><div class="guide-step"><b>01</b><span><strong data-i18n="railStepOne">Connect the repository</strong><small data-i18n="railStepOneText">Choose Alva-sDev242/dentsu-mini-bot in Railway.</small></span></div><div class="guide-step"><b>02</b><span><strong data-i18n="railStepTwo">Add the required secret</strong><small data-i18n="railStepTwoText">Set TELEGRAM_BOT_TOKEN in the service variables.</small></span></div><div class="guide-step"><b>03</b><span><strong data-i18n="railStepThree">Keep sessions persistent</strong><small data-i18n="railStepThreeText">Attach a Railway Volume at /app/auth_info.</small></span></div><div class="guide-step"><b>04</b><span><strong data-i18n="railStepFour">Deploy and pair</strong><small data-i18n="railStepFourText">Wait for the /health check, then choose code or QR.</small></span></div></div></div>
+    </section>
+
+    <section class="view" data-view="support">
+      <div class="page-heading"><button class="back-link" data-goto="home">← <span data-i18n="backHome">Home</span></button><div class="eyebrow"><span class="live-dot"></span><span data-i18n="community">SUPPORT & COMMUNITY</span></div><h1 data-i18n="supportTitle">Need a hand?</h1><p data-i18n="supportLead">Follow the official communities for deployment help, updates and guidance.</p></div>
+      <div class="social-grid"><a class="social-card" href="https://whatsapp.com/channel/0029VbC1s7fFnSz1YhZYc01h" target="_blank" rel="noreferrer"><span class="social-logo whatsapp-logo"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp"></span><span><b data-i18n="waChannel">WhatsApp channel</b><small data-i18n="updates">News and updates</small></span><strong>↗</strong></a><a class="social-card" href="https://t.me/DPLOIEMENT_DUN_BOT2" target="_blank" rel="noreferrer"><span class="social-logo telegram-logo"><img src="https://cdn.simpleicons.org/telegram/229ED9" alt="Telegram"></span><span><b data-i18n="tgChannel">Telegram channel</b><small>@DPLOIEMENT_DUN_BOT2</small></span><strong>↗</strong></a><a class="social-card" href="https://chat.whatsapp.com/FwJDxAdCgeCGWqJiTv68eF" target="_blank" rel="noreferrer"><span class="social-logo group-logo"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp"></span><span><b data-i18n="waGroup">Official WhatsApp group</b><small data-i18n="askCommunity">Ask the community</small></span><strong>↗</strong></a><a class="social-card" href="https://github.com/Alva-sDev242/dentsu-mini-bot" target="_blank" rel="noreferrer"><span class="social-logo github-logo">⌘</span><span><b data-i18n="githubDev">Developer on GitHub</b><small>github.com/Alva-sDev242/dentsu-mini-bot</small></span><strong>↗</strong></a></div>
+      <div class="contact-strip"><div><span class="contact-mini">✉</span><span><b data-i18n="directHelp">Need direct help?</b><small data-i18n="messageDev">Message the developer on WhatsApp.</small></span></div><a class="button button-primary" href="https://wa.me/242050471017" target="_blank" rel="noreferrer"><span data-i18n="contact">CONTACT DEV</span><b>↗</b></a></div>
+      <div class="signature">Made with care by <strong>NatsuTech's Dev 🇨🇬</strong></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><span>© 2026 · dents-mini-bot</span><button data-goto="support" data-i18n="support">Support & community</button><span data-i18n="footerNote">WhatsApp connection · Your session, your choice</span></footer>
+</body>
+</html>
