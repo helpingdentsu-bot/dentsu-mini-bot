@@ -10,7 +10,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=22&amp;pause=1100&amp;color=25D366&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=WhatsApp+%C3%97+Telegram;Pair.+Connect.+Automate.;A+bot+made+for+your+community." alt="WhatsApp × Telegram — Pair. Connect. Automate." />
 </p>
 
-<p align="center"><strong>A WhatsApp × Telegram assistant by NatsuTech's Dev 🇨🇬 · Alva'sDev 🇨🇩</strong></p>
+<p align="center"><strong>A WhatsApp × Telegram assistant by NatsuTech's Dev 🇨🇬 · Alva'sDev</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-%3E%3D20-339933?logo=node.js&amp;logoColor=white" alt="Node.js 20 or newer" />
@@ -35,7 +35,7 @@
 
 ## What it does
 
-Dentsu Mini Bot pairs WhatsApp accounts through Telegram or its web pairing page. It includes a large command collection for media, AI, stickers, group tools and everyday utilities.
+Dentsu Mini Bot pairs WhatsApp accounts through Telegram or its web pairing page. It includes a large command collection for media downloads, stickers, group tools and everyday utilities.
 
 - Pair a WhatsApp session with a one-time code or QR scan.
 - Manage bot sessions from Telegram.
@@ -82,6 +82,6 @@ The disk preserves WhatsApp session files across restarts. Check Render's curren
 
 Released under the [MIT License](LICENSE).
 
-<strong>Built with care by NatsuTech's Dev 🇨🇬 · Alva'sDev 🇨🇩</strong>
+<strong>Built with care by NatsuTech's Dev 🇨🇬 · Alva'sDev</strong>
 
 [GitHub repository](https://github.com/helpingdentsu-bot/dentsu-mini-bot) · [Telegram community](https://t.me/DPLOIEMENT_DUN_BOT2) · [WhatsApp channel](https://whatsapp.com/channel/0029VbC1s7fFnSz1YhZYc01h)
