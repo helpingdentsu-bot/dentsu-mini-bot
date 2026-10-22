@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/helpingdentsu-bot/dentsu-mini-bot">
-    <img src="assets/dentsu-mini-bot-avatar.png" width="150" alt="Dentsu Mini Bot logo" />
+    <img src="assets/dentsu-mini-bot-animated.gif" width="245" alt="Animated Dentsu Mini Bot logo with NatsuTech Congo flag colors" />
   </a>
 </p>
 
 <h1 align="center">DENTSU MINI BOT</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=22&amp;pause=1100&amp;color=25D366&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=WhatsApp+%C3%97+Telegram;Pair.+Connect.+Automate.;A+bot+made+for+your+community." alt="WhatsApp × Telegram — Pair. Connect. Automate." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=22&amp;pause=1100&amp;color=009543&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=WhatsApp+%C3%97+Telegram;Pair.+Connect.+Automate.;NatsuTech%27s+Dev+%F0%9F%87%A8%F0%9F%87%AC" alt="WhatsApp × Telegram — Pair. Connect. Automate. — NatsuTech’s Dev 🇨🇬" />
 </p>
 
 <p align="center"><strong>A WhatsApp × Telegram assistant by NatsuTech's Dev 🇨🇬 · Alva'sDev</strong></p>
